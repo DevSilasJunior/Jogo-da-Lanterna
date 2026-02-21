@@ -1,0 +1,81 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+#overlay {
+    position: fixed;   
+    inset: 0;           
+    pointer-events: none; 
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    background: black;
+    background: url("../pictures/paisagem3.jpg") no-repeat center fixed;
+    background-size: cover;
+}
+header{
+    position: fixed;
+}
+.nuvem{
+    background: url('../pictures/nuvem');
+    max-width: 10vw;  
+    min-width: 300px;
+}
+#nuvem1{
+    position: absolute;
+    left: 21vw;
+    top: 10vh;
+}
+#nuvem2{
+    position: absolute;
+    left: 50vw;
+}
+#nuvem3{
+    position: absolute;
+    left: 60vw;
+    top: 20vh;
+}
+#lua{
+    position: absolute;
+    max-width: 1000px;
+    min-width: 600px;
+    left: 50vw;
+    border-radius: 50%;
+
+
+
+
+}
+.arvore{
+    position: absolute;
+    max-width: 2000px;
+    min-width: 1000px;
+}
+#arvore1{
+    left: 30vw;
+    max-width: 1500px;
+    min-width: 1000px;
+    bottom: 15vh;
+}
+
+#arvore2{
+    bottom: 10vh;
+    left: 50vw;
+    background-position: center bottom;
+}
+
+#flor-azul{
+    position: absolute;
+    bottom: 10vh;
+    min-width: 200px;
+    max-width: 500px;
+    left: 20vw;
+}
+#flor-rosa{
+    position: absolute;
+    bottom: 5vh;
+    min-width: 200px;
+    max-width: 500px;
+    left: 50vw;
+}
