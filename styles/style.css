@@ -5,7 +5,10 @@
 #overlay {
     position: fixed;   
     inset: 0;           
-    pointer-events: none; 
+    pointer-events: none;
+    width: 100vw;
+    height: 100vh; 
+
 }
 body{
     width: 100vw;
@@ -14,13 +17,14 @@ body{
     background: url("../pictures/paisagem3.jpg") no-repeat center fixed;
     background-size: cover;
     overflow: hidden;
+    filter: brightness(50%);
 }
 header{
     position: fixed;
+    width:100vw;
 }
 .nuvem{
-    background: url('../pictures/nuvem'); 
-    width: 300px;
+    width: 11vw;
 }
 #nuvem1{
     position: absolute;
@@ -38,39 +42,43 @@ header{
 }
 #lua{
     position: absolute;
-    width: 600px;
-    left: 50vw;
+    width: 20vw;
+    left: 40vw;
     border-radius: 50%;
-
-
-
-
 }
+
+main{
+    width: 100vw;
+}
+
+
 .arvore{
     position: absolute;
-    width: 1000px;
+    width: 30%;
 }
 #arvore1{
     left: 30vw;
-    width: 1000px;
+    width: 21vw;
     bottom: 15vh;
 }
 
 #arvore2{
     bottom: 10vh;
     left: 50vw;
+    width: 27%;
     background-position: center bottom;
 }
 
 #flor-azul{
     position: absolute;
     bottom: 10vh;
-    width: 500px;
-    left: 20vw;
+    width: 15vw;
+    left: 24vw;
 }
 #flor-rosa{
     position: absolute;
     bottom: 5vh;
-    width: 500px;
+    width: 14vw;
     left: 50vw;
 }
+
