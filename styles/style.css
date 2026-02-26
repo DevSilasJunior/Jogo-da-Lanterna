@@ -14,10 +14,9 @@ body{
     width: 100vw;
     height: 100vh;
     background: black;
-    background: url("../pictures/paisagem3.jpg") no-repeat center fixed;
+    background: url("../pictures/paisagem-noite.avif") no-repeat center fixed;
     background-size: cover;
     overflow: hidden;
-    filter: brightness(50%);
 }
 header{
     position: fixed;
