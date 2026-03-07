@@ -8,6 +8,7 @@
     pointer-events: none;
     width: 100vw;
     height: 100vh; 
+    background-color: black;
 
 }
 body{
@@ -24,60 +25,31 @@ header{
 }
 .nuvem{
     width: 11vw;
-}
-#nuvem1{
     position: absolute;
     left: 21vw;
     top: 10vh;
 }
-#nuvem2{
+#laranja{
     position: absolute;
-    left: 50vw;
-}
-#nuvem3{
-    position: absolute;
-    left: 60vw;
-    top: 20vh;
-}
-#lua{
-    position: absolute;
-    width: 20vw;
-    left: 40vw;
-    border-radius: 50%;
+    width: 4vw;
+    right: 20vw;
+    top: 8vh;
 }
 
 main{
     width: 100vw;
 }
 
-
-.arvore{
-    position: absolute;
-    width: 30%;
-}
-#arvore1{
-    left: 30vw;
-    width: 21vw;
-    bottom: 15vh;
-}
-
-#arvore2{
-    bottom: 10vh;
-    left: 50vw;
-    width: 27%;
-    background-position: center bottom;
-}
-
 #flor-azul{
     position: absolute;
     bottom: 10vh;
-    width: 15vw;
-    left: 24vw;
+    width: 10vw;
+    left: 14vw;
 }
 #flor-rosa{
     position: absolute;
-    bottom: 5vh;
-    width: 14vw;
-    left: 50vw;
+    bottom: 10vh;
+    width: 10vw;
+    left: 90vw;
 }
 
