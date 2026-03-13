@@ -23,7 +23,7 @@ header{
     position: fixed;
     width:100vw;
 }
-.nuvem{
+#nuvem{
     width: 11vw;
     position: absolute;
     left: 21vw;
@@ -38,6 +38,7 @@ header{
 
 main{
     width: 100vw;
+    background-color: rgb(175, 101, 101);
 }
 
 #flor-azul{
@@ -51,5 +52,12 @@ main{
     bottom: 10vh;
     width: 10vw;
     left: 90vw;
+}
+
+article{
+    background-color: aquamarine;
+}
+.procure{
+    width: 10%;
 }
 
